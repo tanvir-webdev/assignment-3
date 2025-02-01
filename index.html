@@ -99,9 +99,9 @@
     <!-- ---------------banner section------------------ -->
     <div class="px-4 container mx-auto borde">
       <div
-        class="bg-[url(./assets/cat-big.png)] bg-[center_top_15rem] md:bg-[center_top_15rem] lg:bg-[center_top_0rem] h-[100vh] bg-no-repeat bg-contain">
+        class="bg-[url(./assets/cat-big.png)] bg-[center_top_10rem] md:bg-[center_top_15rem] lg:bg-[center_top_0rem] h-[46rem] bg-no-repeat bg-contain">
         <div class="mt-24 w-4/5">
-          <h1 class="adlam-regular text-4xl md:text-6xl lg:text-7xl mb-4">Pamper Your Pet, <br class="hidden md:block">
+          <h1 class="adlam-regular text-4xl text-black md:text-6xl lg:text-7xl mb-4">Pamper Your Pet, <br class="hidden md:block">
             Because They Deserve <br class="hidden md:block"> the Bes</h1>
           <p class="text-black md:text-xl opacity-70 mb-6">
             Discover a world of treats, toys, and essentials handpicked for <br class="hidden md:block"> your furry
@@ -117,7 +117,7 @@
   <main>
 
     <!-- ------------Categories Section--------------- -->
-    <section class="px-4 container mx-auto borde mb-32">
+    <section class="px-4 container mx-auto -mt-32 md:-mt-0 md:mt-32 mb-32">
       <!-- categoris title -->
       <div>
         <h2 class="adlam-regular text-4xl mb-12">Browse By Categories</h2>
@@ -330,7 +330,7 @@
         <div
           class="hidden md:flex items-center justify-between bg-gradient-to-tl from-[#ACD2FD] to-[#F8CCFB] p-6 rounded-lg md:w-3/5 h-[30rem]">
           <div class="ml-20">
-            <p class="text-xl mb-3">Under Price</p>
+            <p class="text-xl text-black mb-3">Under Price</p>
             <h4 class="adlam-regular text-black text-3xl mb-2">Pet Grooming Mitt</h4>
             <p class="adlam-regular text-white text-2xl mb-4">(Easy Hair Removal)</p>
             <h2 class="adlam-regular text-black text-6xl">$7.99</h2>
@@ -346,7 +346,7 @@
           <img class="absolute right-0 bottom-1 w-[55%] md:w-full" src="assets/cute-dog-mid.png" alt="">
         </div>
         <div class="relative bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] p-6 rounded-lg md:w-2/5 h-[30rem]">
-          <h4 class="adlam-regular text-black text-3xl mb-2 mt-10 md:ml-10">Pet Grooming Mitt</h4>
+          <h4 class="adlam-regular text-black text-3xl mb-2 mt-10 md:ml-10">T-Shirts for Dogs</h4>
           <h2 class="adlam-regular text-common text-6xl mt-6 md:ml-10">$7.99</h2>
           <img class="absolute right-0 bottom-1 w-3/5" src="assets/cute-pet-mid.png" alt="">
         </div>
@@ -358,41 +358,43 @@
   <footer class="bg-secondary pt-60">
     <div class="container mx-auto -mt-[30rem]">
       <!-- news subscription -->
-      <div class="hero bg-secondary-bg rounded-xl py-9">
-        <div class="hero-content flex-col lg:flex-row">
-          <img src="assets/cute-pet-mid.png" class="max-w-sm" />
+      <div class="bg-secondary-bg rounded-xl mx-4 p-9">
+        <div class="flex items-center flex-col lg:flex-row">
+          <div class="ml-0 md:ml-24">
+            <img class=" mx-auto" src="assets/cute-pet-mid.png"/>
+          </div>
           <div class="md:ml-28 text-center md:text-left">
-            <h1 class="text-5xl font-bold">Box Office News!</h1>
-            <p class="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-              quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-            <button class="btn btn-primary">Get Started</button>
+            <h3 class="adlam-regular text-2xl md:text-4xl mb-6 text-black">Get Pawsome News!</h3>
+            <p class="text-black text-xl mb-9">Exclusive training tips, ticks, product deals and more.</p>
+            <input class="block w-full p-4 rounded-md mb-9" type="email" name=""
+              id="" placeholder="Enter Email...">
+            <button
+              class="btn btn-warning bg-common text-xl font-normal text-black px-7">Subscribe</button>
           </div>
         </div>
       </div>
       <!--footer links -->
       <div class="flex flex-col md:flex-row gap-9 md:justify-between md:items-end px-4 py-36 container mx-auto">
         <div class="w-[26rem]">
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3 mb-6">
             <img src="assets/logo-footer.png" alt="">
             <h2 class=" text-2xl text-black font-normal">Browse<span class="text-common">4</span>Pets</h2>
           </div>
-          <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
         </div>
         <div>
           <ul>
-            <li>Find a Pet</li>
-            <li>Breeds</li>
-            <li>Contact us</li>
+            <li class="text-black text-xl mb-8">Find a Pet</li>
+            <li class="text-black text-xl mb-8">Breeds</li>
+            <li class="text-black text-xl mb">Contact us</li>
           </ul>
         </div>
         <div>
-          <h4>Follow Us</h4>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <h4 class="font-medium text-xl text-black mb-3">Follow Us</h4>
+          <i class="fa-brands fa-facebook text-black text-2xl mr-7"></i>
+          <i class="fa-brands fa-instagram text-black text-2xl mr-7"></i>
+          <i class="fa-brands fa-linkedin text-black text-2xl mr-7"></i>
+          <i class="fa-brands fa-youtube text-black text-2xl mr-7"></i>
         </div>
       </div>
     </div>

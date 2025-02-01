@@ -10,5 +10,33 @@
     font-weight: 400;
     font-style: normal;
 }
-  
-  
+
+
+.animated-title{
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+}
+
+.animated-title::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: orange;
+    -webkit-text-stroke: white;
+    border-right: 2px solid orange ;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%, 10%, 100%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+}
